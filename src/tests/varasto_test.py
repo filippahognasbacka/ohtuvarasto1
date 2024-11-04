@@ -74,3 +74,5 @@ class TestVarasto(unittest.TestCase):
         varasto = Varasto(10, 5)
         odotettu_maara = "saldo = 5, vielä tilaa 5"
         self.assertEqual(str(varasto), odotettu_maara)
+
+    #heippa
