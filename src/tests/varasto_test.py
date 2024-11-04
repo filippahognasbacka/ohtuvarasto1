@@ -72,5 +72,5 @@ class TestVarasto(unittest.TestCase):
 
     def test_str_metodi(self):
         varasto = Varasto(10, 5)
-        odotettu_maara = "saldo = 5, tilaa 5"
+        odotettu_maara = "saldo = 5, vielä tilaa 5"
         self.assertEqual(str(varasto), odotettu_maara)
